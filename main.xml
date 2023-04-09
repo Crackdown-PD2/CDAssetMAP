@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<mod name="Crackdown Map Replacements" min_lib_ver="4.3" version="1.0.0">
+	<Hooks name="cd_map_replacements_hooks">
+		<pre script_path="Corepre.lua" source_file="entry"/>
+	</Hooks>
+</mod>
