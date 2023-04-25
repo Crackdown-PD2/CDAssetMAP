@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<mod name="Crackdown Assets - Maps" min_lib_ver="4.3">
-	<AssetUpdates id="Crackdown-PD2/Crackdown-Assets-Maps" branch="main" provider="github" version="1.0.0" release="true" important="false" dont_delete="false"/>
+<mod name="Crackdown Assets - Maps" priority="3" min_lib_ver="4.3">
+	<AssetUpdates id="Crackdown-PD2/Crackdown-Assets-Maps" branch="main" provider="github" version="1.0.1" release="true" important="false" dont_delete="false"/>
 	
 	<Hooks name="cd_map_replacements_hooks" directory="hooks">
 		<hook pre="true" file="entry.lua" source_file="lib/entry"/>
